@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+/*body {
+background-image: url("./assets/img/header.jpg") !important;
+}*/
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+//@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  //  background-image: url("https://ryanmartinproductions.com/image/38046-full_4k-gaming-wallpapers-download-high-quality-hd-images.jpg") !important ;
+    background-color: white !important;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    left: 0;
+    margin: 0;
+    //height: 100vh;
+    //width: 100vw;
+   // overflow: hidden;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: rgba(255,255,255,.7) !important;
+}
+
+.sidebar {
+  background: grey !important;
+}
+
