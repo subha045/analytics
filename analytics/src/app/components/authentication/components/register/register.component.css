@@ -1,0 +1,35 @@
+.register-block {
+    margin: auto;
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    opacity:1.0;
+}
+
+.register-input-full-width{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
+.game-register {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    width: 90%;
+    opacity:0.96;
+    max-height:100%;
+}
+
+.game-register:hover {
+    opacity:1.0;
+}

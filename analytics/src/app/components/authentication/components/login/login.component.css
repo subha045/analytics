@@ -1,0 +1,50 @@
+.login-block {
+    margin: auto;
+    width:100%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.login-input-full-width{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
+
+.game-login {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    width: 90%;
+    opacity:0.95;
+    max-height: 100%;
+}
+.game-login:hover {
+    opacity:1.0;
+}
+
+
+.mat-raised-button {
+    border-radius: 0rem;
+    opacity:1.0;
+    width:100%;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-infix {
+     padding: 0.5em 0 0.5em 0 !important; 
+}
+
+#logo{
+    height:auto;
+    width:100%;
+}

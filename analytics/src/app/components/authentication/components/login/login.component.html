@@ -1,0 +1,32 @@
+<mat-card class="game-login">
+  <img id="logo" alt="Logo" src="assets/img/pag-logo-gray.png" />
+  <h3>Login</h3>
+  <mat-card-content>
+    <form class="login-form" #loginForm="ngForm" [style.fontSize.px]="18">
+      <div class="login-block">
+
+
+        <div class="row">
+
+          <mat-form-field class="login-input-full-width" appearance="outline">
+            <input matInput placeholder="User Id" [(ngModel)]="user.userId" name="userId" id="userId" required minlength="5" maxlength="10"
+              #userId="ngModel" class="inputId">
+              <mat-error *ngIf="userId.invalid">User Id: must be 5 to 10 characters long</mat-error>
+          </mat-form-field>
+          <mat-form-field class="login-input-full-width" appearance="outline">
+            <input matInput placeholder="Password" type="password" [(ngModel)]="user.password" name="password" id="password" required
+              #password="ngModel" class="inputPass">
+              <mat-error *ngIf="password.invalid">Password is mandatory</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="row login-input-full-width">
+          <button class="login-user" type="submit" mat-raised-button (click)="loginUser()" color="primary">Login</button>
+        </div>
+        <br>
+        <div class="row">
+          Don't have account? <a id="gotoRegister" mat-button routerLink="../register">Sign Up</a>
+        </div>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>
